@@ -1,48 +1,71 @@
+<doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assignment solution of module 2</title>
-<link rel="stylesheet" href="css/Module2-solution.css">
-<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
 <style>
+	*{
+		box-sizing: border-box;
+		 
+
+		margin: 5px;
+	}
 	h1{
 		text-align: center;
+		
 	}
 
 	@media (min-width:1200px){
 		.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
 			float:left;
-			border:1px solid black;
+			border:3px solid black;
+          padding: 0px 0px 10px 10px;
 		}
+		h1{
+		text-align: center;
+		font-size: 200%;
 		
+	}
 		.col-lg-1{
 			width:8.33%;
 		}
 		.col-lg-2{
 			width:16.66%;
 		}
-		.col-lg-3{width:25%;}
-		.col-lg-4{width:33.33%;}
+		.col-lg-3{
+			width:25%;}
+		.col-lg-4{
+			width:33.33%;
+		}
 		
-		.col-lg-5{width:41.66%;}
-		.col-lg-6{width:50%;}
-		.col-lg-7{width:58.33%;}
+		.col-lg-5{
+			width:41.66%;}
+		.col-lg-6{
+			width:50%;}
+		.col-lg-7{
+			width:58.33%;}
 		.col-lg-8{width:66.66%;}
 		.col-lg-9{width:75%;}
 		.col-lg-10{width:83.33%;}
 		.col-lg-11{width:91.33%;}
-		.col-lg-12{width:100%}
+		.col-lg-12{width:100%;}
 
 	}
 	@media (min-width:992px) and (max-width:1199px){
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 			float:left;
-			border:10px solid black;
-
+			border:3px solid black;
+ clear: left;
 		}
+		h1{
+		text-align: center;
+		font-size:250%;
 		
+	}
 		.col-md-1{
 			width:8.33%;
 		}
@@ -59,37 +82,120 @@
 		.col-md-9{width:75%;}
 		.col-md-10{width:83.33%;}
 		.col-md-11{width:91.33%;}
-		.col-md-12{width:100%}
+		.col-md-12{width:100%;}
+
+	}
+	@media (max-width:991px){
+		.col-sm-1, .col-sm-2, .col-sm-3,.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+			float:left;
+			border:3px solid black;
+            margin: 5px;
+
+
+		}
+		h1{
+		text-align: center;
+		font-size: 300%;
+
+		
+	}
+		.col-sm-1 {
+			width:8.33%;
+		}
+		.col-sm-2 {
+			width:16.66%;
+		}
+		.col-sm-3 {width:25%;}
+		.col-sm-4 {
+			width:33.33%;
+		}
+		
+		.col-sm-5 {width:41.66%;}
+		.col-sm-6 {width:50%;}
+		.col-sm-7 {width:58.33%;}
+		.col-sm-8 {width:66.66%;}
+		.col-sm-9 {width:75%;}
+		.col-sm-10 {width:83.33%;}
+		.col-sm-11 {width:91.33%;}
+		.col-sm-12 {width:100%;}
 
 	}
 	div{
 		background-color:gray;
-	}
-	#p1 .container-fluid
-	{position: absolute;
-		right:10px;
 
 	}
-	#p2 .container-fluid{
-		position: absolute;
-		float:right;}
-	#p2 .container-fluid{position: absolute;
-		float:right;}
-	div .row{
-			padding: 10px ;
-			margin: 40px;
+	#p1
+	{position: relative;
+
+		text-align: center;
+		font-weight: bold;
+		color:black;
+		margin-left: 1000px; 
+		margin-right: 0px;
+		margin-top: 0px; 
+		float: right;
+		width: 100px;
+		height:20px;
+		border: 2px solid black;
+		border-right: 0px;
+		border-top: 0px;
+		background-position: top-right:
+		background-color:pink; 
+	}
+	#p2 {
+		position: relative;
+		text-align: center;
+		font-weight: bold;
+		color:white;
+		margin-left: 1000px;
+		margin-right: 0px;
+		margin-top: 0px; 
+		float: right;
+		width: 100px;
+		height:20px;
+		border: 2px solid black;
+		border-right: 0px;
+		border-top: 0px;
+		padding: 0px;
+		background-color: red;}
+	#p3 {position: relative;
+		text-align: center;
+		font-weight: bold;
+		color:black;
+		margin-left:1000px; 
+		margin-right: 0px;
+		margin-top: 0px; 
+		float: right;
+		width: 100px;
+		height:20px;
+		border: 2px solid black;
+		border-right: 0px;
+		border-top: 0px;
+		background-color: yellow;}
+ .row{
+			
+			margin:0px;
+
 		}
+		div #container-fluid{
+border:0px;
+
+		}
+		
+		
 </style>
 </head>
 <body>
-	
+<script src="js/js/iQuery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/script.js"></script>
 	<h1>Our Menu</h1>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-lg-4 col-md-6"><p id="p1">chicken</p>
+		<div class="col-lg-4 col-md-6 .col-sm-12 "><p id="p1">chicken</p>
 		lorem ipsum dolor sit amel,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea</div>
-		<div class="col-lg-4 col-md-6"><p id="p2">beef</p>lorem ipsum dolor sit amel,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea</div>
-		<div class="col-lg-4 col-md-6"><p id="p3">Sushi</p>lorem ipsum dolor sit amel,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea</div>
+		<div class="col-lg-4 col-md-6 .col-sm-12 "><p id="p2">beef</p>lorem ipsum dolor sit amel,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea</div>
+		<div class="col-lg-4 col-md-6 .col-sm-12 "><p id="p3">Sushi</p>lorem ipsum dolor sit amel,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ultamco laboris nisi ut aliquip ex ea</div>
 	</div>
 </div>
 </body>
